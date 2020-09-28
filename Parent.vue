@@ -17,6 +17,7 @@
         @Ref('child') readonly child: Child;
 
         mounted() {
+            // az IDE a method-ot pirossal alá húzza, viszont ha ctrl+klikk-elek rá, akkor megtalálja az adott child.vue fájlt
             this.child.childMethod();
         }
     }
